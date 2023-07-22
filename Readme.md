@@ -11,6 +11,10 @@ This utility will copy the file in chunks and display the progress as it goes.
 
 It copies in small chunks, flushes it and reports the percentage giving it a better sense of progress.
 
+
+![image](https://github.com/rebooting/go_slowcp/assets/487900/e3aa2f86-22de-46a7-b945-f2b2418e976b)
+
+
 Build
 -----
 
