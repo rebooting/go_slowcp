@@ -3,9 +3,9 @@ slowcp.exe
 
 A simple utility to copy a file from source to destination.
 
-I wrote it as I realized that Linux tends to cache large files when copying, has the effect of seeing the file hit 100% on copy and then the file is still being written in the background. 
+I wrote it as I realized that Linux tends to cache large files when copying, has the effect of seeing the file hit 100% on copy and then had to wait for the write to complete with no feedback how much was done.
 
-This is pretty annoying when you are copying a large file to a USB stick and then pull it out thinking it is done.
+This is pretty annoying when I was copying some large files to a USB stick and I had to leave in a hurry, had to wait for the i/o to complete. Wrote this to solve that little problem without having to touch the caching config of my OS. Thus this little tool.
 
 This utility will copy the file in chunks and display the progress as it goes.
 
